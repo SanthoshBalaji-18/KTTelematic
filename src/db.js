@@ -5,9 +5,11 @@ const client = new Client({
     user: 'postgres',
     host: 'localhost',
     database: 'postgres',
-    password: 'ImAsher@18',
+    password: '',
     port: '5432'
 });
+
+//Add the pg details to connect with the DataBase.
 
 client.connect();
 
